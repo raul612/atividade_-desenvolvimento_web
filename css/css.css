@@ -1,0 +1,39 @@
+.container{
+    text-align: center;
+    width: 60%;
+    margin: auto;
+    background-color:ghostwhite
+}
+
+header{
+    height: 150px;
+    background-color:#078d70;
+    padding: 10px;
+}
+
+nav{
+    height: 130px;
+    padding: 8px;
+    background-color:#98e8c1;
+}
+#home{
+    max-height: 45px;
+    padding: 5px;
+}
+main{
+    height: 500px;
+    padding: 10px;
+    background-color:#7bade2;
+}
+#pc{
+    max-height: 200px;
+}
+footer{
+    height: 150px;
+    padding: 10px;
+    color:white;
+    background-color:#3d1a78;
+}
+#fatec{
+    max-height: 50px;
+}
