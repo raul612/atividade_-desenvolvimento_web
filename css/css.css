@@ -1,3 +1,27 @@
+@font-face {
+    font-family: 'Washington';
+    src: url('../fontes/Washington.ttf');
+}
+
+@font-face {
+    font-family: 'Hemgjord';
+    src: url('../fontes/HemgjordLettering_PERSONAL_USE_ONLY.otf');
+}
+
+@font-face {
+    font-family: 'Social media';
+    src: url('../fontes/Social\ Media\ Circled.ttf');
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Atma:wght@300;400;500;600;700&family=Lavishly+Yours&family=Spline+Sans+Mono:ital,wght@0,300..700;1,300..700&display=swap');
+
+body{
+    background-image: url(../media/fundo.png);
+    background-position: center;
+    background-repeat: space;
+    background-color: #e6ecfd;
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -5,10 +29,6 @@
 
 * img{
     align-self: center;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 #container {
@@ -40,16 +60,14 @@ nav.superior,
 nav.topo {
     width: 100%;
     margin-bottom: 1%;
+    font-family: 'Washington';
 }
 
-nav.superior {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-}
 
 nav.lateral {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     width: 29%;
-    background-color: #b1ffee;
+    background-color: #b1ffeeb5;
+    font-family: 'Hemgjord';
 }
 
 main{
@@ -62,7 +80,7 @@ main{
     padding-bottom: 2%;
     text-align: justify;
     float: right;
-    background-color:#7bade2;
+    background-color:#7bade2a8;
 }
 
 main p,
@@ -70,10 +88,31 @@ main h3 {
     text-indent: 2%;
 }
 
+p.p1{
+    font-family: "Spline Sans Mono", monospace;
+    font-weight: 400;
+}
+p.p2{
+    font-family: "Atma", system-ui;
+    font-weight: 500;
+    font-style: normal;
+}
+p.p3{
+    font-family: "Lavishly Yours", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+p.icon{
+    font-family: 'Social media';
+    font-size: 26px;
+    color:#210e42;
+}
 main h3 {
     color: white;
     text-transform: uppercase;
     margin-bottom: 2%;
+    font-family: 'Washington';
+    font-size: 40px;
 }
 
 #pc{
@@ -96,7 +135,7 @@ nav.lateral ul{
 
 nav.lateral li a{
     display: block;
-    color: black;
+    color: rgba(0, 0, 0, 0.64);
     padding: 8px 16px;
     text-decoration: none;
 }
@@ -108,7 +147,7 @@ nav.lateral li a:hover{
 }
 
 nav.lateral .active{
-    background-color:rgba(20, 75, 63, 0.749);
+    background-color:rgb(20, 75, 63);
     color: white;
     text-align: none;
     text-decoration: none;
@@ -119,7 +158,7 @@ nav.topo ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #b1ffee;
+    background-color: #b1ffeeb5;
     position: fixed;
     top: 0;
     width: 100%;
@@ -132,7 +171,7 @@ nav.topo li{
 
 nav.topo li a{
     display: block;
-    color: black;
+    color: rgba(0, 0, 0, 0.64);
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
@@ -144,7 +183,7 @@ nav.topo li a:hover{
 }
 
 nav.topo .active{
-    background-color:rgba(20, 75, 63, 0.749);
+    background-color:rgb(20, 75, 63);
     color: white;
 }
 
@@ -153,7 +192,7 @@ nav.superior ul{
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #b1ffee;
+    background-color: #b1ffeeb5;
     text-align: center;
 }
 
@@ -168,7 +207,7 @@ nav.superior li:last-child{
 
 nav.superior li a{
     display: block;
-    color: black;
+    color: rgba(0, 0, 0, 0.64);
     padding: 10px 20px;
     text-decoration: none;
     text-align: center;
@@ -180,6 +219,6 @@ nav.superior li a:hover{
 }
 
 nav.superior .active{
-    background-color:rgba(20, 75, 63, 0.749);
+    background-color:rgb(20, 75, 63);
     color: white;
 }
